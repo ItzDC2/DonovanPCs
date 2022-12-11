@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/border">
+
+    <ImageView
+        android:id="@+id/defaultImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:src="@drawable/ic_computer_default" />
+
+    <TextView
+        android:id="@+id/cpuView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/defaultImageView"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/model_cpu"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/cpuText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpuView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/placaBaseView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cpuText"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/model_placaBase"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/placaBaseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placaBaseView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/tarjetaGraficaView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/placaBaseText"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/model_tarjetaGrafica"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/tarjetaGraficaText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tarjetaGraficaView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/ramView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tarjetaGraficaText"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/model_ram"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/ramText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ramView"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/precioView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ramText"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="18dp"
+        android:text="@string/model_precio"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/precioText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/precioView"
+        android:layout_marginLeft="15dp"
+        android:inputType="number"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/errorView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/precioText"
+        android:textColor="@color/rojo"/>
+
+
+    <Button
+        android:id="@+id/aceptarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/errorView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="@string/aceptar"/>
+
+</RelativeLayout>

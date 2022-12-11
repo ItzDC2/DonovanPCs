@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DonovanPCs</string>
+    <string name="titulo">DonovanPCs</string>
+    <string name="add_button">add button</string>
+    <string name="empezar">Empezar</string>
+    <string name="acercaDeTitle">Acerca de...</string>
+    <string name="model_cpu">CPU: </string>
+    <string name="model_placaBase">Placa Base: </string>
+    <string name="model_tarjetaGrafica">Tarjeta gráfica: </string>
+    <string name="model_ram">RAM: </string>
+    <string name="model_precio">Precio: </string>
+    <string name="editContextTitle">Editar</string>
+    <string name="deleteContextTitle">Eliminar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="total">Total:</string>
+</resources>
