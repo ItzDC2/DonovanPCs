@@ -59,6 +59,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addButton = (ImageButton) findViewById(R.id.addButton);
         itemsView = (ListView) findViewById(R.id.itemsView);
 
+        TextView totalView = (TextView) findViewById(R.id.totalView);
+        totalView.setText(totalView.getText() + " " + total + "€");
+
         backButton.setOnClickListener(this);
         addButton.setOnClickListener(this);
 

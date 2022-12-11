@@ -32,6 +32,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/cpuView"
         android:layout_marginLeft="15dp"
+        android:selectAllOnFocus="true"
         android:layout_marginRight="15dp" />
 
     <TextView
@@ -51,6 +52,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/placaBaseView"
         android:layout_marginLeft="15dp"
+        android:selectAllOnFocus="true"
         android:layout_marginRight="15dp" />
 
     <TextView
@@ -70,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tarjetaGraficaView"
         android:layout_marginLeft="15dp"
+        android:selectAllOnFocus="true"
         android:layout_marginRight="15dp" />
 
     <TextView
@@ -89,6 +92,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/ramView"
         android:layout_marginLeft="15dp"
+        android:selectAllOnFocus="true"
         android:layout_marginRight="15dp" />
 
     <TextView
@@ -109,6 +113,7 @@
         android:layout_below="@id/precioView"
         android:layout_marginLeft="15dp"
         android:inputType="number"
+        android:selectAllOnFocus="true"
         android:layout_marginRight="15dp" />
 
     <TextView
